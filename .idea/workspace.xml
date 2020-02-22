@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0342953b-b394-4ec8-92eb-b55ca1de2cbc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XfntmhqYvwKwXXCVd3UKk2NkdE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\main\resources" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.java.tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.ForPO">
+    <configuration name="ForPO" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForPO.anyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
+      <option name="METHOD_NAME" value="anyTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForPO.checkLang" type="TestNG" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
+      <option name="METHOD_NAME" value="checkLang" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HelloTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloTest.checkStyle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HelloTest" />
+      <option name="METHOD_NAME" value="checkStyle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ForPO" />
+        <item itemvalue="TestNG.ForPO.anyTest" />
+        <item itemvalue="TestNG.HelloTest" />
+        <item itemvalue="TestNG.HelloTest.checkStyle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0342953b-b394-4ec8-92eb-b55ca1de2cbc" name="Default Changelist" comment="" />
+      <created>1581446233080</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581446233080</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="0" key="#Project_Structure" timestamp="1581446407034">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1581446407034" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582312421200">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1582312421200" />
+    <state x="404" y="145" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581446291406">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="404" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1581446291406" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581966319115">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581966319115" />
+    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1582310797966">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1582310797966" />
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1582377480947">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582377480947" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1582283741101">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582283741101" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582037975639">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1582037975639" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
+          <line>107</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
