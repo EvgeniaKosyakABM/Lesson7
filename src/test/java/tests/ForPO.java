@@ -22,7 +22,7 @@ public class ForPO extends BaseTest {
     HomePage homePage;
     VacancyPage vacancyPage;
     CallbackPage callbackPage;
-    EveningCoursesPage eveningCoursesPage;
+
 
     @BeforeMethod
     public void PageLoad() {
@@ -49,7 +49,8 @@ public class ForPO extends BaseTest {
         assertEquals(actualMsg, expectedMsg);
     }
 
-     @Test //позитивный тест для д/з 8
+
+    @Test //позитивный тест для д/з 8
     public void TestPositiveHW8() {
         homePage.open();
         callbackPage.openCallback()
@@ -62,10 +63,12 @@ public class ForPO extends BaseTest {
         assertEquals(actualMess, expectedMess);
     }
 
+
     @Test //негативный тест для д/з 8
     public void TestNegativeHW8() {
         homePage.open();
-        callbackPage.openCallback()
+        callbackPage
+                .openCallback()
                 .setFullname("")
                 .setPhone("")
                 .submit();
@@ -74,23 +77,10 @@ public class ForPO extends BaseTest {
         assertEquals(actualMess, expectedMess);
     }
 
-   /* @Test //тест для д/з 9
-    public void TestHW9() {
-        homePage
-                .open()
-                .selectLanguage("uk")
-                .openEveningCourses()
-                .openCourses();
-        *//*eveningCoursesPage
-                .selectEveningCourses();*//*
-        System.out.println("ok");
-    }*/
 
-
-    //создаем тест, вытаскивающий все языки и проверяем все ли они есть в наличии
-    @Test
+    @Test //тест, вытаскивающий все языки и проверяем все ли они есть в наличии
     public void checkLang() throws InterruptedException {
-       String langExpected[]= {"UA", "EN", "RU"};
+        String langExpected[] = {"UA", "EN", "RU"};
 
         homePage.open();
         wait.until(ExpectedConditions.visibilityOf(driver.findElement(By.xpath("(//a[text() = 'UA'])[1]"))));
@@ -98,11 +88,39 @@ public class ForPO extends BaseTest {
         List<WebElement> langElements = driver.findElements(By.xpath("(//ul[@class = 'lang'])[1]//a"));
         List<String> langActual = new ArrayList<String>();
 
-        for (WebElement el: langElements) {
+        for (WebElement el : langElements) {
             langActual.add(el.getText());
         }
-        for (String lang: langExpected){
+        for (String lang : langExpected) {
             boolean isContains = langActual.contains(lang);
+            assertTrue(isContains);
+        }
+    }
+
+
+    @Test // д/з 9, д/з 10
+    public void checkCourse() throws InterruptedException {
+        String courseExpected[] = {"Тестування", "Frontend development", "JS development", "Веб-дизайн",
+                "PHP", "Java programming", "Python", "Data Science/Machine Learning",
+                "C# /.NET development", "C++", "Game Development", "DEVOPS",
+                "Digital Marketing", "Управління персоналом", "Управління проектами", "Mobile development",
+                "Відеомонтаж", "Cisco", "Go development", "Кібербезпека",
+                "Менеджмент"};
+        homePage
+                .open()
+                .selectLanguage("uk")
+                .openEveningCourses()
+                .openCourses();
+
+        List<WebElement> courseElements = driver.findElements(By.cssSelector(".container_12 h2"));
+        List<String> courseActual = new ArrayList<String>();
+
+        for (WebElement el : courseElements) {
+            courseActual.add(el.getText());
+        }
+
+        for (String course : courseExpected) {
+            boolean isContains = courseActual.contains(course);
             assertTrue(isContains);
         }
     }

@@ -12,12 +12,9 @@ public class EveningCoursesPage extends BasePage {
         super(driver);
     }
 
-   /* //метод, необходимый для отнаследования
-    public  EveningCoursesPage open() {
-        driver.get("http://iteaua-develop.demo.gns-it.com/vacancy/");
+    //метод, необходимый для отнаследования
+    public EveningCoursesPage open() {
+        driver.get("http://iteaua-develop.demo.gns-it.com/courses-itea/");
         return this;
-    }*/
-
-
-
+    }
 }

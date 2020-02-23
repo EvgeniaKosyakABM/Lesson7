@@ -57,4 +57,11 @@ public class CallbackPage extends BasePage {
         return color;
     }
 
+    public CallbackPage openCallback1() {
+        WebElement CallbackEl = driver.findElement(By.className("callback-btn"));
+        wait.until(ExpectedConditions.visibilityOf(CallbackEl));
+        CallbackEl.click();
+        return this;
+    }
+
 }

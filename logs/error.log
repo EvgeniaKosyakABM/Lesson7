@@ -1,6 +1,2 @@
-2020-02-21 21:42:09 INFO  HomePage:27 - Language is checked to uk
-2020-02-21 21:42:11 INFO  VacancyPage:27 - Select vacancy Викладач UX
-2020-02-21 21:42:11 WARN  VacancyPage:29 - Select vacancy Викладач UX
-2020-02-21 21:45:03 INFO  HomePage:27 - Language is checked to uk
-2020-02-21 21:45:08 INFO  VacancyPage:27 - Select vacancy Викладач UX
-2020-02-21 21:45:08 WARN  VacancyPage:29 - Select vacancy Викладач UX
+2020-02-23 22:32:50 [ WARN] HomePage:30 - Language is checked to uk
+2020-02-23 22:32:50 [ERROR] HomePage:31 - Это сообщение ошибки. Language is checked to uk
