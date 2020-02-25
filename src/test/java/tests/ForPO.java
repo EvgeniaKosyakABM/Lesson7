@@ -126,9 +126,9 @@ public class ForPO extends BaseTest {
     }
 
 
-    @AfterMethod
+   /* @AfterMethod
     public void tearDown() {
         driver.quit();
-    }
+    }*/
 }
 

@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0342953b-b394-4ec8-92eb-b55ca1de2cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/owner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Del.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/Screenshot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/utils/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/recources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/BasePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/CallbackPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/CallbackPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/EveningCoursesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/EveningCoursesPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/VacancyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/VacancyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/BaseTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/ForPO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/ForPO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/CallbackPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/PO/CallbackPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/EveningCoursesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/PO/EveningCoursesPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/PO/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/VacancyPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/test/java/tests/PO/VacancyPage.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -57,14 +54,34 @@
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\test\recources" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="test.java.tests" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\main\resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ForPO.checkCourse">
+  <component name="RunManager" selected="TestNG.ForPO.checkLang">
+    <configuration name="Del" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.Del" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForPO" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lesson7" />
       <extension name="coverage">
@@ -93,24 +110,6 @@
       <option name="PACKAGE_NAME" value="test.java.tests" />
       <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
       <option name="METHOD_NAME" value="TestHW9" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForPO.TestNegativeHW8" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lesson7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
-      <option name="METHOD_NAME" value="TestNegativeHW8" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -176,9 +175,9 @@
       <list>
         <item itemvalue="TestNG.ForPO.checkCourse" />
         <item itemvalue="TestNG.ForPO" />
+        <item itemvalue="TestNG.Del" />
         <item itemvalue="TestNG.ForPO.TestHW9" />
         <item itemvalue="TestNG.ForPO.anyTest" />
-        <item itemvalue="TestNG.ForPO.TestNegativeHW8" />
       </list>
     </recent_temporary>
   </component>
@@ -193,10 +192,19 @@
       <option name="presentableId" value="Default" />
       <updated>1581446233080</updated>
     </task>
+    <task id="LOCAL-00001" summary="Commit HW9, HW10">
+      <created>1582490048954</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582490048954</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Commit HW9, HW10" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit HW9, HW10" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" timestamp="1581446407034">
@@ -215,58 +223,66 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="404" y="145" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1581446291406" />
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1582658564731">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582658564731" />
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581966319115">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581966319115" />
-    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1582391216560">
+    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1582657858881">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1582391216560" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582412584219">
+    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1582657858881" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582490045702">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582412584219" />
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1582489960339">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582490045702" />
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1582660807713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582489960339" />
-    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1582489960339">
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582660807713" />
+    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1582660807713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582489960339" />
-    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1582489960339">
+    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582660807713" />
+    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1582660807713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582489960339" />
-    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1582489960339">
+    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582660807713" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1582660807713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582489960339" />
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1582467298976">
+    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582660807713" />
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1582657867360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582467298976" />
-    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1582467298976">
+    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582657867360" />
+    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1582657867360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582467298976" />
-    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1582467298976">
+    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582657867360" />
+    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1582657867360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582467298976" />
-    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1582467298976">
+    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582657867360" />
+    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1582657867360">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582467298976" />
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1582467440901">
+    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582657867360" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1582660387605">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582467440901" />
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582467465114">
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1582660387605" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1582650188604">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1582467465114" />
+    <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582650188604" />
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582653021734">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="450" y="259" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1582653021734" />
     <state x="0" y="0" width="927" height="408" key="dock-window-1" timestamp="1582407416342">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -285,13 +301,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
-          <line>1</line>
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
-          <line>125</line>
-          <option name="timeStamp" value="22" />
+          <line>97</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

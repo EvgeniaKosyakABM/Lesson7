@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="AAA">
+    <listeners>
+        <listener class-name="test.java.utils.TestListener"/>
+    </listeners>
+    <test name="A test">
+        <classes>
+            <class name="test.java.tests.ForPO"/>
+        </classes>
+    </test>
+</suite>
