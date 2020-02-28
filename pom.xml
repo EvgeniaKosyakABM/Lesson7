@@ -11,7 +11,7 @@
     <properties>
         <aspectj.version>1.8.10</aspectj.version>
         <allure.version>2.12.1</allure.version>
-        <someFile>testng.xml</someFile>
+        <suiteXmlFile>testng.xml</suiteXmlFile>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
@@ -28,7 +28,7 @@
                 <configuration>
                     <!-- Suite testng xml file to consider for test execution -->
                     <suiteXmlFiles>
-                        <suiteXmlFile>${someFile}</suiteXmlFile>
+                        <suiteXmlFile>${suiteXmlFile}</suiteXmlFile>
                     </suiteXmlFiles>
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

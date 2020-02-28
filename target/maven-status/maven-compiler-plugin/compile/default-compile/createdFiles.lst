@@ -10,6 +10,7 @@ test\java\tests\Test7.class
 test\java\tests\DelMe.class
 test\java\utils\AnnotationTransformer.class
 test\java\utils\PropertyLoader.class
+test\java\tests\Unit.class
 test\java\tests\PO\HomePage.class
 test\java\tests\PO\VacancyPage.class
 test\java\utils\RetryAnalizer.class

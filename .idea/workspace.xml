@@ -2,54 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0342953b-b394-4ec8-92eb-b55ca1de2cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/DelMe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/AnnotationTransformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/PropertyLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utils/RetryAnalizer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/recources/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignor" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignor" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Unit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/unittestng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test/java/tests/ForPO/TestNegativeHW8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test/java/tests/ForPO/TestPositiveHW8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test/java/tests/ForPO/anyTest.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test/java/tests/ForPO/checkCourse.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenshots/test/java/tests/ForPO/checkLang.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/VacancyPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/VacancyPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/Del.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/ForPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/CallbackPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/EveningCoursesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/VacancyPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/Test7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/Screenshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AAA/A test.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/AAA/A test.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.java.tests.ForPO.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/A test.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/classes.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/groups.html" beforeDir="false" />
@@ -61,25 +28,8 @@
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/reporter-output.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/testng.xml.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/AAA/toc.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/BaseTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/Del.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/ForPO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/CallbackPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/EveningCoursesPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/HomePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/VacancyPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/Test7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/Screenshot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/TestListener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -301,22 +251,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582490045702" />
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1582912439183">
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1582913055819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582912439183" />
-    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1582912439183">
+    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
+    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1582913055819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582912439183" />
-    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1582912439183">
+    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
+    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1582913055819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582912439183" />
-    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1582912439183">
+    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1582913055819">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582912439183" />
+    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
     <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1582831819487">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
