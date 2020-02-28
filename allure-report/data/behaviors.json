@@ -1,0 +1,26 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Add t-short",
+    "children" : [ {
+      "name" : "Add to card",
+      "children" : [ {
+        "name" : "anyTest",
+        "uid" : "19f903d5302a5c44",
+        "parentUid" : "c55f8231b356ec84f1ec16aae8243f1e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1582911438782,
+          "stop" : 1582911451708,
+          "duration" : 12926
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c55f8231b356ec84f1ec16aae8243f1e"
+    } ],
+    "uid" : "47892da3e5e073a0e456f508b96b2bc0"
+  } ]
+}

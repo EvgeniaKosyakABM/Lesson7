@@ -1,0 +1,30 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Default Suite",
+    "children" : [ {
+      "name" : "Lesson7",
+      "children" : [ {
+        "name" : "test.java.tests.ForPO",
+        "children" : [ {
+          "name" : "anyTest",
+          "uid" : "19f903d5302a5c44",
+          "parentUid" : "32811e77e6fcd8b3e7aac7c28ab1111c",
+          "status" : "failed",
+          "time" : {
+            "start" : 1582911438782,
+            "stop" : 1582911451708,
+            "duration" : 12926
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "32811e77e6fcd8b3e7aac7c28ab1111c"
+      } ],
+      "uid" : "f141844c7c287412e315c0c101213acf"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  } ]
+}

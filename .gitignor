@@ -3,3 +3,5 @@ lesson7.iml
 logs/
 target/
 screenshots/
+allure-results/
+allure-report/

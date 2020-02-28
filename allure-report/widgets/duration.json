@@ -1,0 +1,11 @@
+[ {
+  "uid" : "19f903d5302a5c44",
+  "name" : "anyTest",
+  "time" : {
+    "start" : 1582911438782,
+    "stop" : 1582911451708,
+    "duration" : 12926
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

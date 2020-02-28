@@ -1,5 +1,6 @@
 package test.java.tests;
 
+        import io.qameta.allure.*;
         import org.openqa.selenium.By;
         import org.openqa.selenium.WebElement;
         import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -10,6 +11,7 @@ package test.java.tests;
         import test.java.tests.PO.EveningCoursesPage;
         import test.java.tests.PO.HomePage;
         import test.java.tests.PO.VacancyPage;
+        import test.java.utils.RetryAnalizer;
 
         import java.util.ArrayList;
         import java.util.List;
@@ -31,8 +33,15 @@ public class ForPO extends BaseTest {
         callbackPage = new CallbackPage(driver);
     }
 
-
-    @Test
+    @Link("https://google.com")
+    @TmsLink("B-1")
+    @Issues({
+            @Issue("AAA-1"),
+            @Issue("AAA-134")
+    })
+    @Story("Add to card")
+    @Feature("Add t-short")
+    @Test //(retryAnalyzer = RetryAnalizer.class)
     public void anyTest() {
         homePage
                 .open()
@@ -46,10 +55,18 @@ public class ForPO extends BaseTest {
                 .submit();
         String actualMsg = vacancyPage.getPhoneErrorMsg();
         String expectedMsg = "Поле не має бути пустим";
+        //assertTrue(false);
         assertEquals(actualMsg, expectedMsg);
     }
 
-
+    @Link("https://google.com")
+    @TmsLink("B-1")
+    @Issues({
+            @Issue("AAA-1"),
+            @Issue("AAA-134")
+    })
+    @Story("Add to card")
+    @Feature("Delete t-short")
     @Test //позитивный тест для д/з 8
     public void TestPositiveHW8() {
         homePage.open();
@@ -64,7 +81,7 @@ public class ForPO extends BaseTest {
     }
 
 
-    @Test //негативный тест для д/з 8
+   /* @Test //негативный тест для д/з 8
     public void TestNegativeHW8() {
         homePage.open();
         callbackPage
@@ -76,9 +93,9 @@ public class ForPO extends BaseTest {
         String expectedMess = "border-color: red;";
         assertEquals(actualMess, expectedMess);
     }
+*/
 
-
-    @Test //тест, вытаскивающий все языки и проверяем все ли они есть в наличии
+   /* @Test //тест, вытаскивающий все языки и проверяем все ли они есть в наличии
     public void checkLang() throws InterruptedException {
         String langExpected[] = {"UA", "EN", "RU"};
 
@@ -95,10 +112,10 @@ public class ForPO extends BaseTest {
             boolean isContains = langActual.contains(lang);
             assertTrue(isContains);
         }
-    }
+    }*/
 
 
-    @Test // д/з 9, д/з 10
+   /* @Test // д/з 9, д/з 10
     public void checkCourse() throws InterruptedException {
         String courseExpected[] = {"Тестування", "Frontend development", "JS development", "Веб-дизайн",
                 "PHP", "Java programming", "Python", "Data Science/Machine Learning",
@@ -123,10 +140,10 @@ public class ForPO extends BaseTest {
             boolean isContains = courseActual.contains(course);
             assertTrue(isContains);
         }
-    }
+    }*/
 
 
-   /* @AfterMethod
+    /*@AfterMethod
     public void tearDown() {
         driver.quit();
     }*/

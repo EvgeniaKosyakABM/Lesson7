@@ -5,7 +5,11 @@ test\java\tests\PO\CallbackPage.class
 test\java\utils\TestListener.class
 test\java\utils\Screenshot.class
 test\java\tests\ForPO.class
-test\java\tests\PO\HomePage.class
-test\java\tests\PO\VacancyPage.class
 test\java\tests\Del.class
 test\java\tests\Test7.class
+test\java\tests\DelMe.class
+test\java\utils\AnnotationTransformer.class
+test\java\utils\PropertyLoader.class
+test\java\tests\PO\HomePage.class
+test\java\tests\PO\VacancyPage.class
+test\java\utils\RetryAnalizer.class
