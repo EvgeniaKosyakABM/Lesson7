@@ -7,8 +7,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import test.java.utils.PropertyLoader;
+
+import static org.testng.Assert.assertFalse;
+import static org.testng.Assert.assertTrue;
 
 public class HomePage extends BasePage {
     Logger logger = LogManager.getLogger(HomePage.class);
@@ -73,4 +75,12 @@ public class HomePage extends BasePage {
         courses.click();
         return this;
     }
+
+    public HomePage BuyCourse() throws InterruptedException {
+        WebElement BuyCourseElements = driver.findElement(By.cssSelector(".order-courses-btn"));
+        wait.until(ExpectedConditions.elementToBeClickable(BuyCourseElements));
+        BuyCourseElements.click();
+        return this;
+    }
+
 }

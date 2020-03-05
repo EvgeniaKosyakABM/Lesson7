@@ -14,7 +14,7 @@ import test.java.utils.Screenshot;
 import java.util.concurrent.TimeUnit;
 
 public class BaseTest {
-    WebDriver driver;
+    public WebDriver driver;
     WebDriverWait wait;
 
     //гарантированно инициализируем веб-драйвер перед каждым тестом

@@ -1,17 +1,18 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<!--
 <suite name="AAA">
     <listeners>
         <listener class-name="test.java.utils.TestListener"/>
         <listener class-name="test.java.utils.AnnotationTransformer"/>
     </listeners>
     <test name="A test">
-        <classes>
-            <class name="test.java.tests.ForPO">
+    <classes>
+        <class name="test.java.tests.ForPO">
             <methods>
                 <include name="anyTest"/>
             </methods>
-            <!--<class name="test.java.tests.Del"/>-->
-            </class>
-        </classes>
-    </test>
-</suite>
+            &lt;!&ndash;<class name="test.java.tests.Del"/>&ndash;&gt;
+        </class>
+    </classes>
+</test>
+</suite>-->

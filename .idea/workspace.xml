@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0342953b-b394-4ec8-92eb-b55ca1de2cbc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/tests/HomeWork.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/ForPO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/EveningCoursesPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/PO/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/Del.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/DelMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/ForPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/CallbackPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/EveningCoursesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/PO/VacancyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/tests/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/AnnotationTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/PropertyLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/RetryAnalizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/test/java/utils/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/Del.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/DelMe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/ForPO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/CallbackPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/EveningCoursesPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/HomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/PO/VacancyPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/tests/Test7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/AnnotationTransformer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/PropertyLoader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/RetryAnalizer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/Screenshot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/java/utils/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,24 +96,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../aqa_java_tasks" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\test\recources" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="test.java.tests.PO" />
       <recent name="test.java.utils" />
       <recent name="test.java.tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\main\resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\owner\IdeaProjects\Lesson7\src\test\recources" />
+    </key>
   </component>
-  <component name="RunManager" selected="TestNG.ForPO.anyTest">
+  <component name="RunManager" selected="TestNG.HomeWork.checkCourseLocation">
     <configuration name="DelMe" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="test.java.tests.DelMe" />
       <module name="Lesson7" />
@@ -64,59 +124,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForPO" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lesson7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForPO.TestPositiveHW8" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lesson7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
-      <option name="METHOD_NAME" value="TestPositiveHW8" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForPO.anyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Lesson7" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.java.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.java.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
-      <option name="METHOD_NAME" value="anyTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,7 +146,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForPO.newAnyTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomeWork.checkCourse" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests.PO" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HomeWork" />
+      <option name="METHOD_NAME" value="checkCourse" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork.checkCourseLocation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests.PO" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HomeWork" />
+      <option name="METHOD_NAME" value="checkCourseLocation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork.checkCourseLocation123" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Lesson7" />
       <extension name="coverage">
         <pattern>
@@ -148,8 +191,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test.java.tests" />
-      <option name="MAIN_CLASS_NAME" value="test.java.tests.ForPO" />
-      <option name="METHOD_NAME" value="newAnyTest" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HomeWork" />
+      <option name="METHOD_NAME" value="checkCourseLocation123" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeWork.checkCourseLocationR" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Lesson7" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.java.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.java.tests" />
+      <option name="MAIN_CLASS_NAME" value="test.java.tests.HomeWork" />
+      <option name="METHOD_NAME" value="checkCourseLocationR" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -159,11 +220,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.ForPO.anyTest" />
-        <item itemvalue="TestNG.ForPO" />
-        <item itemvalue="TestNG.ForPO.TestPositiveHW8" />
+        <item itemvalue="TestNG.HomeWork.checkCourseLocation" />
+        <item itemvalue="TestNG.HomeWork.checkCourseLocation123" />
+        <item itemvalue="TestNG.HomeWork.checkCourseLocationR" />
         <item itemvalue="Application.DelMe" />
-        <item itemvalue="TestNG.ForPO.newAnyTest" />
+        <item itemvalue="TestNG.HomeWork.checkCourse" />
       </list>
     </recent_temporary>
   </component>
@@ -192,12 +253,20 @@
       <option name="project" value="LOCAL" />
       <updated>1582913568214</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Commit 28022020">
+      <created>1582918829087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582918829087</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit HW9, HW10" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit HW9, HW10" />
+    <MESSAGE value="Commit 28022020" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 28022020" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" key="#Project_Structure" timestamp="1581446407034">
@@ -220,62 +289,70 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1582826040768" />
-    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581966319115">
+    <state x="438" y="226" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1583063988834">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1581966319115" />
-    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1582657858881">
+    <state x="438" y="226" width="404" height="236" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680@0.0.1280.680" timestamp="1583063988834" />
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583073060280">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1582657858881" />
-    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582913564655">
+    <state x="371" y="89" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.680@0.0.1280.680" timestamp="1583073060280" />
+    <state x="396" y="45" key="#xdebugger.evaluate" timestamp="1583357331144">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582913564655" />
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom" timestamp="1582913055819">
+    <state x="396" y="45" key="#xdebugger.evaluate/0.0.1280.680@0.0.1280.680" timestamp="1583357331144" />
+    <state x="297" y="0" key="CommitChangelistDialog2" timestamp="1582918827274">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
-    <state width="1237" height="231" key="GridCell.Tab.0.center" timestamp="1582913055819">
+    <state x="297" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582918827274" />
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1583091272742">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
-    <state width="1237" height="231" key="GridCell.Tab.0.left" timestamp="1582913055819">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1583091272742" />
+    <state width="1222" height="189" key="GridCell.Tab.0.bottom" timestamp="1583366424309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
-    <state width="1237" height="231" key="GridCell.Tab.0.right" timestamp="1582913055819">
+    <state width="1222" height="189" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583366424309" />
+    <state width="1222" height="189" key="GridCell.Tab.0.center" timestamp="1583366424309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="231" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1582913055819" />
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom" timestamp="1582831819487">
+    <state width="1222" height="189" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1583366424309" />
+    <state width="1222" height="189" key="GridCell.Tab.0.left" timestamp="1583366424309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1582831819487" />
-    <state width="1237" height="205" key="GridCell.Tab.1.center" timestamp="1582831819487">
+    <state width="1222" height="189" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1583366424309" />
+    <state width="1222" height="189" key="GridCell.Tab.0.right" timestamp="1583366424309">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1582831819487" />
-    <state width="1237" height="205" key="GridCell.Tab.1.left" timestamp="1582831819487">
+    <state width="1222" height="189" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1583366424309" />
+    <state width="1222" height="212" key="GridCell.Tab.1.bottom" timestamp="1583363376713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1582831819487" />
-    <state width="1237" height="205" key="GridCell.Tab.1.right" timestamp="1582831819487">
+    <state width="1222" height="212" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1583363376713" />
+    <state width="1222" height="212" key="GridCell.Tab.1.center" timestamp="1583363376713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1582831819487" />
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1582827848432">
+    <state width="1222" height="212" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1583363376713" />
+    <state width="1222" height="212" key="GridCell.Tab.1.left" timestamp="1583363376713">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1582827848432" />
+    <state width="1222" height="212" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1583363376713" />
+    <state width="1222" height="212" key="GridCell.Tab.1.right" timestamp="1583363376713">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1222" height="212" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1583363376713" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1583345851773">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1583345851773" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1582829388440">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1582829388440" />
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1582913574520">
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2" timestamp="1582918848822">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582913574520" />
+    <state x="233" y="75" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1582918848822" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1582831903044">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -292,28 +369,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="181" y="58" width="927" height="408" key="dock-window-2/0.0.1280.680@0.0.1280.680" timestamp="1582407416343" />
-    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1582468444786">
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1583098333356">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1582468444786" />
+    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1583098333356" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/src/test/java/tests/HomeWork.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="27" />
+          <url>file://$PROJECT_DIR$/src/test/java/tests/HomeWork.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/tests/ForPO.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="28" />
+          <url>file://$PROJECT_DIR$/src/test/java/tests/HomeWork.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/HomeWork.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

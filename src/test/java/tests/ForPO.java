@@ -8,10 +8,8 @@ package test.java.tests;
         import org.testng.annotations.BeforeMethod;
         import org.testng.annotations.Test;
         import test.java.tests.PO.CallbackPage;
-        import test.java.tests.PO.EveningCoursesPage;
         import test.java.tests.PO.HomePage;
         import test.java.tests.PO.VacancyPage;
-        import test.java.utils.RetryAnalizer;
 
         import java.util.ArrayList;
         import java.util.List;
@@ -55,7 +53,6 @@ public class ForPO extends BaseTest {
                 .submit();
         String actualMsg = vacancyPage.getPhoneErrorMsg();
         String expectedMsg = "Поле не має бути пустим";
-        //assertTrue(false);
         assertEquals(actualMsg, expectedMsg);
     }
 
@@ -67,35 +64,25 @@ public class ForPO extends BaseTest {
     })
     @Story("Add to card")
     @Feature("Delete t-short")
-    @Test //позитивный тест для д/з 8
-    public void TestPositiveHW8() {
-        homePage.open();
-        callbackPage.openCallback()
-                .setFullname("EvgeniaTest")
-                .setPhone("0684103225")
+    @Test //(retryAnalyzer = RetryAnalizer.class)
+    public void anyTest1() {
+        homePage
+                .open()
+                .selectLanguage("uk")
+                .openAbout()
+                .openVacancies();
+        vacancyPage
+                .selectVacancy("Викладач UX")
+                .setName("Vova")
+                .setEmail("email@email.com")
                 .submit();
-        String actualMess = callbackPage.message();
-        String expectedMess = "Спасибо!\n" +
-                "Наш менеджер свяжется с Вами.";
-        assertEquals(actualMess, expectedMess);
+        String actualMsg = vacancyPage.getPhoneErrorMsg();
+        String expectedMsg = "Поле не має бути пустим";
+        assertEquals(actualMsg, expectedMsg);
     }
 
 
-   /* @Test //негативный тест для д/з 8
-    public void TestNegativeHW8() {
-        homePage.open();
-        callbackPage
-                .openCallback()
-                .setFullname("")
-                .setPhone("")
-                .submit();
-        String actualMess = callbackPage.colorForm();
-        String expectedMess = "border-color: red;";
-        assertEquals(actualMess, expectedMess);
-    }
-*/
-
-   /* @Test //тест, вытаскивающий все языки и проверяем все ли они есть в наличии
+    @Test //тест, вытаскивающий все языки и проверяем все ли они есть в наличии
     public void checkLang() throws InterruptedException {
         String langExpected[] = {"UA", "EN", "RU"};
 
@@ -112,40 +99,11 @@ public class ForPO extends BaseTest {
             boolean isContains = langActual.contains(lang);
             assertTrue(isContains);
         }
-    }*/
+    }
 
-
-   /* @Test // д/з 9, д/з 10
-    public void checkCourse() throws InterruptedException {
-        String courseExpected[] = {"Тестування", "Frontend development", "JS development", "Веб-дизайн",
-                "PHP", "Java programming", "Python", "Data Science/Machine Learning",
-                "C# /.NET development", "C++", "Game Development", "DEVOPS",
-                "Digital Marketing", "Управління персоналом", "Управління проектами", "Mobile development",
-                "Відеомонтаж", "Cisco", "Go development", "Кібербезпека",
-                "Менеджмент"};
-        homePage
-                .open()
-                .selectLanguage("uk")
-                .openEveningCourses()
-                .openCourses();
-
-        List<WebElement> courseElements = driver.findElements(By.cssSelector(".container_12 h2"));
-        List<String> courseActual = new ArrayList<String>();
-
-        for (WebElement el : courseElements) {
-            courseActual.add(el.getText());
-        }
-
-        for (String course : courseExpected) {
-            boolean isContains = courseActual.contains(course);
-            assertTrue(isContains);
-        }
-    }*/
-
-
-    /*@AfterMethod
+    @AfterMethod
     public void tearDown() {
         driver.quit();
-    }*/
+    }
 }
 
