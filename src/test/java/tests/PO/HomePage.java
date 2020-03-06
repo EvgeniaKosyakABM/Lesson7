@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import test.java.utils.PropertyLoader;
 
+import java.util.List;
+
 import static org.testng.Assert.assertFalse;
 import static org.testng.Assert.assertTrue;
 
@@ -83,4 +85,66 @@ public class HomePage extends BasePage {
         return this;
     }
 
+    public HomePage openRandomCourses() {
+        List<WebElement> courseElements = driver.findElements(By.cssSelector(".container_12 a"));
+        int rand = (int) (Math.random() * (courseElements.size()));
+        WebElement CourseRandom = courseElements.get(rand);
+        System.out.println(CourseRandom.getAttribute("href"));
+        CourseRandom.click();
+        return this;
+    }
+
+    public HomePage openNumberCourses(int number) {
+        List<WebElement> courseElements = driver.findElements(By.cssSelector(".container_12 a"));
+        //int rand = (int) (Math.random() * (courseElements.size()));
+        WebElement CourseNumber = courseElements.get(number);
+        System.out.println(CourseNumber.getAttribute("href"));
+        CourseNumber.click();
+        return this;
+    }
+
+    public HomePage setFullname(String fullname) {
+        WebElement fullnameInput = driver.findElement(By.id("name"));
+        wait.until(ExpectedConditions.elementToBeClickable(fullnameInput));
+        fullnameInput.sendKeys("" + fullname + "");
+        return this;
+    }
+
+    public HomePage setEmail(String email) {
+        WebElement emailInput = driver.findElement(By.id("email"));
+        wait.until(ExpectedConditions.elementToBeClickable(emailInput));
+        emailInput.sendKeys("" + email + "");
+        return this;
+    }
+
+    public HomePage setPhone(String phone) {
+        WebElement phoneInput = driver.findElement(By.id("phone"));
+        wait.until(ExpectedConditions.elementToBeClickable(phoneInput));
+        phoneInput.sendKeys("" + phone + "");
+        return this;
+    }
+
+    public HomePage setPrivacyPolicy() {
+        WebElement checkboxPrivacyPolicy = driver.findElement(By.cssSelector("#input-privacy-policy"));
+        checkboxPrivacyPolicy.isSelected();
+        checkboxPrivacyPolicy.click();
+        return this;
+    }
+
+    public HomePage submit() throws InterruptedException {
+       // WebElement submitBtn = driver.findElement(By.xpath("//div[@class='user-data-form__item user-data-form__item-button']//input[@type='submit']"));
+        WebElement submitBtn = driver.findElement(By.cssSelector(".submit "));
+        submitBtn.click();
+        Thread.sleep(5000);
+        return this;
+    }
+
+    public String message() {
+        WebElement MessageEl = driver.findElement(By.cssSelector(".thanks-block h1"));
+        wait.until(ExpectedConditions.visibilityOf(MessageEl));
+        String text = MessageEl.getText();
+        String text2 = text.substring(0,21);
+        System.out.println(text2);
+        return(text2);
+    }
 }

@@ -85,7 +85,7 @@ public class HomeWork extends BaseTest {
     }
 
 
-    @Test(dataProvider = "locationCourseProvider") // д/з 10
+    /*@Test(dataProvider = "locationCourseProvider") // д/з 10
     public void checkCourseLocation(String locCourse1, boolean res1,
                                     String locCourse2, boolean res2,
                                     String locCourse3, boolean res3,
@@ -95,13 +95,9 @@ public class HomeWork extends BaseTest {
                 .open()
                 .selectLanguage("uk")
                 .openEveningCourses()
-                .openCourses();
-        List<WebElement> courseElements = driver.findElements(By.cssSelector(".container_12 a"));
-        int rand = (int) (Math.random() * (courseElements.size()));
-        WebElement CourseRandom = courseElements.get(rand);
-        System.out.println(CourseRandom.getAttribute("href"));
-        CourseRandom.click();
-        homePage.BuyCourse();
+                .openCourses()
+                .openRandomCourses()
+                .BuyCourse();
         WebElement checkbox1 = driver.findElement(By.cssSelector("#" + locCourse1));
         boolean resSelected1 = checkbox1.isSelected() == res1;
         WebElement checkbox2 = driver.findElement(By.cssSelector("#" + locCourse2));
@@ -122,6 +118,67 @@ public class HomeWork extends BaseTest {
                 {"location1", true, "location2", false, "location3", false, "input-privacy-policy", true, false},
                 {"location1", false, "location2", false, "location3", false, "input-privacy-policy", false, false}
         };
+    }*/
+
+    @Test(dataProvider = "locationCourseProvider") // д/з c Дата провайдером
+    public void checkCourseLocation(int number,
+                                    String locCourse1, boolean res1,
+                                    String locCourse2, boolean res2,
+                                    String locCourse3, boolean res3,
+                                    String locCourse4, boolean res4,
+                                    boolean result) throws InterruptedException {
+        homePage
+                .open()
+                .selectLanguage("uk")
+                .openEveningCourses()
+                .openCourses()
+                .openNumberCourses(number)
+                .BuyCourse();
+        WebElement checkbox1 = driver.findElement(By.cssSelector("#" + locCourse1));
+        boolean resSelected1 = checkbox1.isSelected() == res1;
+        WebElement checkbox2 = driver.findElement(By.cssSelector("#" + locCourse2));
+        boolean resSelected2 = checkbox2.isSelected() == res2;
+        WebElement checkbox3 = driver.findElement(By.cssSelector("#" + locCourse3));
+        boolean resSelected3 = checkbox3.isSelected() == res3;
+        WebElement checkbox4 = driver.findElement(By.cssSelector("#" + locCourse4));
+        boolean resSelected4 = checkbox4.isSelected() == res4;
+        assertEquals(resSelected1 & resSelected2 & resSelected3 & resSelected4, result);
+    }
+
+    @DataProvider(name = "locationCourseProvider")
+    public Object[][] provider() {
+        return new Object[][]{
+                {0,"location1", true, "location2", false, "location3", false, "input-privacy-policy", false, true},
+                {5,"location1", true, "location2", true, "location3", false, "input-privacy-policy", false, false},
+                {10,"location1", true, "location2", false, "location3", true, "input-privacy-policy", false, false},
+                {15,"location1", true, "location2", false, "location3", false, "input-privacy-policy", true, false},
+                {20,"location1", false, "location2", false, "location3", false, "input-privacy-policy", false, false}
+        };
+    }
+
+    @Test // д/з 11
+    public void registrationCourse() throws InterruptedException {
+        homePage
+                .open()
+                .selectLanguage("uk")
+                .openEveningCourses()
+                .openCourses()
+                .openRandomCourses()
+                .BuyCourse()
+                .setFullname("EvgeniaTest")
+                .setEmail("evgenia.kosyak@gmail.com")
+                .setPhone("0684100000")
+                .setPrivacyPolicy()
+                .submit();
+        Thread.sleep(10000);
+        WebElement MessageEl = driver.findElement(By.xpath("//a[@class='thanks-block']/h1"));
+        wait.until(ExpectedConditions.visibilityOf(MessageEl));
+        String text = MessageEl.getText();
+        String text2 = text.substring(0,21);
+        System.out.println(text2);
+
+        String expectedMsg1 = "Ваша заявка принята.";
+        assertEquals(text2, expectedMsg1);
     }
 
 
