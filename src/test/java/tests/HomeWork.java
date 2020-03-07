@@ -148,11 +148,11 @@ public class HomeWork extends BaseTest {
     @DataProvider(name = "locationCourseProvider")
     public Object[][] provider() {
         return new Object[][]{
-                {0,"location1", true, "location2", false, "location3", false, "input-privacy-policy", false, true},
-                {5,"location1", true, "location2", true, "location3", false, "input-privacy-policy", false, false},
-                {10,"location1", true, "location2", false, "location3", true, "input-privacy-policy", false, false},
-                {15,"location1", true, "location2", false, "location3", false, "input-privacy-policy", true, false},
-                {20,"location1", false, "location2", false, "location3", false, "input-privacy-policy", false, false}
+                {1, "location1", true, "location2", false, "location3", false, "input-privacy-policy", false, true},
+                {5, "location1", true, "location2", true, "location3", false, "input-privacy-policy", false, false},
+                {10, "location1", true, "location2", false, "location3", true, "input-privacy-policy", false, false},
+                {15, "location1", true, "location2", false, "location3", false, "input-privacy-policy", true, false},
+                {20, "location1", false, "location2", false, "location3", false, "input-privacy-policy", false, false}
         };
     }
 
@@ -168,17 +168,11 @@ public class HomeWork extends BaseTest {
                 .setFullname("EvgeniaTest")
                 .setEmail("evgenia.kosyak@gmail.com")
                 .setPhone("0684100000")
-                .setPrivacyPolicy()
+                .privacyPolicy()
                 .submit();
-        Thread.sleep(10000);
-        WebElement MessageEl = driver.findElement(By.xpath("//a[@class='thanks-block']/h1"));
-        wait.until(ExpectedConditions.visibilityOf(MessageEl));
-        String text = MessageEl.getText();
-        String text2 = text.substring(0,21);
-        System.out.println(text2);
-
-        String expectedMsg1 = "Ваша заявка принята.";
-        assertEquals(text2, expectedMsg1);
+        String actualMess = homePage.message();
+        String expectedMess = "Ваша заявка прийнята.";
+        assertEquals(actualMess, expectedMess);
     }
 
 

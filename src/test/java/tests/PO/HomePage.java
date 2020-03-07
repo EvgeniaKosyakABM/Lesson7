@@ -124,15 +124,14 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public HomePage setPrivacyPolicy() {
-        WebElement checkboxPrivacyPolicy = driver.findElement(By.cssSelector("#input-privacy-policy"));
-        checkboxPrivacyPolicy.isSelected();
+    public HomePage privacyPolicy() {
+        WebElement checkboxPrivacyPolicy = driver.findElement(By.cssSelector("#privacy-policy span"));
         checkboxPrivacyPolicy.click();
         return this;
     }
 
     public HomePage submit() throws InterruptedException {
-       // WebElement submitBtn = driver.findElement(By.xpath("//div[@class='user-data-form__item user-data-form__item-button']//input[@type='submit']"));
+        // WebElement submitBtn = driver.findElement(By.xpath("//div[@class='user-data-form__item user-data-form__item-button']//input[@type='submit']"));
         WebElement submitBtn = driver.findElement(By.cssSelector(".submit "));
         submitBtn.click();
         Thread.sleep(5000);
@@ -142,9 +141,9 @@ public class HomePage extends BasePage {
     public String message() {
         WebElement MessageEl = driver.findElement(By.cssSelector(".thanks-block h1"));
         wait.until(ExpectedConditions.visibilityOf(MessageEl));
+
         String text = MessageEl.getText();
-        String text2 = text.substring(0,21);
-        System.out.println(text2);
-        return(text2);
+        String text2 = text.substring(0, 21);
+        return (text2);
     }
 }
